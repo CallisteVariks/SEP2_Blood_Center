@@ -1,0 +1,39 @@
+
+Costumer Information Table:
+                F Name, L Name, Age,CPR (UNIQUE), ID(Primary Key), Phone, Address, e-mail, EVER.Blood Type, EVER.Blood Center Location, Donation Date
+
+
+EVER.Blood Pool Table(DONATIONS):
+                EVER.Blood Type, ID (FOREIGN KEY), Validation Date
+
+EVER.Blood Center:
+            Phone Number, Location, CVR(Primary Key)
+
+Hospital:
+           Phone Number, Location, CVR(Primary Key)
+
+
+EVER.Blood Center Employees:(Type B.Center)
+                F Name, L Name, Staff Number(Primary Key), CPR(UNIQUE), Age, Phone, Address, e-mail, EVER.Blood Center
+
+
+Hospital Employees:(Type Hospital)
+                F Name, L Name, Staff Number(Primary Key), CPR(UNIQUE), Age, Phone, Address, e-mail, Hospital Center
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+                Server Client System (RMI)
+                    --Singleton(Login System) and MVC (Model - Database, View - GUI, Controller - Server)
+                Connect the Database to Java
+
+      EXTRA:
+
+The hospital must send a a message requesting more blood, when below 20%.
+The EVER.Blood Centers can be inside the hospitals
+
+-----------------------------------------------------------------------------------------------------
+DAY 2 -- DID DATABASE--(Created a tables, and understanding java/Database connection)/GUI beginning
+
+

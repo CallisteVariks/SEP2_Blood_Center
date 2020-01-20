@@ -1,0 +1,25 @@
+FINISH TABLES ---> EACH DONOR HAS A DAMN FUCKING TABLE WITH
+
+
+CREATE TABLE DonorBlood (
+  ID             INTEGER REFERENCES Donor (Id),
+  ValidationDate INTEGER
+);z
+
+SEARCH a WAY TO Do THIS FOR EVERY SINGLE DONOR
+
+-----------------------------------
+Tables--
+
+    Login Table:
+        username: Staff Number|password: ?????
+
+    EVER.Blood Pool:
+        EVER.Blood Type, ID(UNIQUE) (FOREIGN KEY - DONOR ID), Validation Date
+        LOG Compare Old with new --->Trigger
+
+
+-----------------------------------
+
+
+Request Bags - Request Notification-> Sends to BB int bags; selected Type(radio Buttons) + String "Priority X"-->To be done
